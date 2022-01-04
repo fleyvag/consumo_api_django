@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.header__tittle{
+    color: white;
+    font-size: 62px;
+}
+.menu{
+    margin-top:30px ;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    
+    
+}
+.menu__fondo{
+    color: white;
+    width: 90vw;
+    border: 1px solid white;
+    outline: 1px solid rgb(28, 253, 28);
+    margin-top: 20px;
+    padding: 10px 50px;
+
+}
+.fondo__nombre{
+    font-size: 42px;
+}
+.fondo__lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    
+}
+.fondo__descripcion{
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
